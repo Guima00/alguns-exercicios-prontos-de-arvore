@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Aula10 Exemplo1</title>
+</head>
+
+<body>
+    <n1>Aula 10 Exemplo 01</n1>
+    <ul></ul>
+    <script>
+        var itens = [
+            { name: "Item 1" },
+            { name: "Item 2" },
+            { name: "Item 5" },
+            { name: "Item 7" },
+            { name: "Item 9" }
+        ];
+        var lista = document.querySelector("ul");
+        atualizaLista();
+        
+        function atualizaLista(){
+            lista.innerHTML="";
+            for (var i = 0; i < itens.length; i++) {
+            var nLi = document.createElement("li");
+            var sNome = document.createElement("span");
+            sNome.textContent = itens[i].name;
+            var bDelete = document.createElement("button");
+            bDelete.textContent = "X";
+            nLi.appendChild(sNome);
+            nLi.appendChild(bDelete);
+            lista.appendChild(nLi);
+            bDelete.addEventListener("click", criaOuvinte(i));
+        }
+        }
+        
+
+        function criaOuvinte(n) {
+            return function (evento) {
+                console.log(evento);
+                console.log("i: ", n);
+                itens.splice(n, 1);
+                console.log("Item Clickado",evento.srcElement.parentNode);
+                atualizaLista();
+            }
+        }
+
+    </script>
+</body>
+
+</html>

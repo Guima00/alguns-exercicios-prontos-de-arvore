@@ -1,0 +1,34 @@
+# depslib dependency file v1.0
+1560209970 source:/ice/Downloads/Aula10/ArvBin.cpp
+	<iostream>
+	<cstdlib>
+	<cstring>
+	<sstream>
+	"ArvBin.h"
+
+1560209966 /ice/Downloads/Aula10/ArvBin.h
+	"NoArv.h"
+
+1529358780 /ice/Downloads/Aula10/NoArv.h
+
+1560209966 source:/ice/Downloads/Aula10/main.cpp
+	<iostream>
+	"ArvBin.h"
+
+1560784404 source:c:\users\principal\desktop\arvorezada-master\aula10\arvbin.cpp
+	<iostream>
+	<cstdlib>
+	<cstring>
+	<sstream>
+	"ArvBin.h"
+	<math.h>
+
+1560463436 c:\users\principal\desktop\arvorezada-master\aula10\arvbin.h
+	"NoArv.h"
+
+1560210321 c:\users\principal\desktop\arvorezada-master\aula10\noarv.h
+
+1560784431 source:c:\users\principal\desktop\arvorezada-master\aula10\main.cpp
+	<iostream>
+	"ArvBin.h"
+
