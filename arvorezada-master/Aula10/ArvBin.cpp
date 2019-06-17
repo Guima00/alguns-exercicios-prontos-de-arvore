@@ -292,4 +292,41 @@ int ArvBin::auxmax(NoArv*p)
     else
         return p->getInfo();
 }
+void ArvBin::inverte()
+{
+    auxInverte(raiz);
+}
+void ArvBin::auxInverte(NoArv*p)
+{
+    int c=0;
+    if(p==NULL);
+    else if(p->getDir()!=NULL && p->getEsq()!=NULL)
+    {
+        c=p->getEsq()->getInfo();
+        p->getEsq()->setInfo(p->getDir()->getInfo());
+        p->getDir()->setInfo(c);
+        cout<<p->getEsq()->getInfo()<<" ";
+        cout<<p->getDir()->getInfo()<<" ";
+        cout<<endl;
+        auxInverte(p->getEsq());
+        auxInverte(p->getDir());
+    }
+}
+int ArvBin::maisaesquerda()
+{
+    return auxmaisaesquerda(raiz);
+}
+int ArvBin::auxmaisaesquerda(NoArv*p)
+{
+    if(p==NULL) return -1;
 
+    if(p->getEsq()!=NULL)
+    {
+         return auxmaisaesquerda(p->getEsq());
+    }
+    else
+    {
+         return p->getInfo();
+    }
+
+}

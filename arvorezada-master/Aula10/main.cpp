@@ -16,5 +16,6 @@ int main()
     arv.imprimeNivel(1);
     cout<<"media:"<<arv.mediaNivel(1)<<endl;
     cout<<"maior:"<<arv.max()<<endl;
+    cout<<"mais a esquerda:"<<arv.maisaesquerda()<<endl;
     return 0;
 }

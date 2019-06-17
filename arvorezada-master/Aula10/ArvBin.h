@@ -150,6 +150,10 @@ class ArvBin
     float auxmedianivel(int k, NoArv*p);
     int max();
     int auxmax(NoArv*p);
+    void inverte();
+    void auxinverte(NoArv*p);
+    int maisaesquerda();
+    int auxmaisaesquerda(NoArv*p);
   private:
     NoArv *raiz; // ponteiro para o No raiz da árvore
 

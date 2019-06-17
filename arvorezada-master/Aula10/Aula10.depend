@@ -6,6 +6,8 @@
 	<sstream>
 	"ArvBin.h"
 
+1560463436 
+
 1560209966 /ice/Downloads/Aula10/ArvBin.h
 	"NoArv.h"
 
@@ -31,4 +33,21 @@
 1560784431 source:c:\users\principal\desktop\arvorezada-master\aula10\main.cpp
 	<iostream>
 	"ArvBin.h"
+
+1560812924 source:/ice/Downloads/alguns-exercicios-prontos-de-arvore-master/arvorezada-master/Aula10/main.cpp
+	<iostream>
+	"ArvBin.h"
+
+1560812924 /ice/Downloads/alguns-exercicios-prontos-de-arvore-master/arvorezada-master/Aula10/ArvBin.h
+	"NoArv.h"
+
+1560785058 /ice/Downloads/alguns-exercicios-prontos-de-arvore-master/arvorezada-master/Aula10/NoArv.h
+
+1560813903 source:/ice/Downloads/alguns-exercicios-prontos-de-arvore-master/arvorezada-master/Aula10/ArvBin.cpp
+	<iostream>
+	<cstdlib>
+	<cstring>
+	<sstream>
+	"ArvBin.h"
+	<math.h>
 
